@@ -89,10 +89,6 @@ if [[ $PHP_VERSION == "5.6" ]]; then
     && docker-php-ext-enable memcached \
     && docker-php-source delete \
 
-  pecl channel-update pecl.php.net \
-    && pecl install amqp redis apcu mongodb imagick xdebug \
-    && docker-php-ext-enable amqp redis apcu mongodb imagick xdebug
-
 elif [[ $PHP_VERSION == "7.2" ]]; then
   docker-php-source extract \
     && git clone https://github.com/php-memcached-dev/php-memcached /usr/src/php/ext/memcached/ \

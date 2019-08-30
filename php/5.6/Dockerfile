@@ -3,7 +3,7 @@ FROM php:5.6
 ARG BUILD_DATE
 ARG VCS_REF
 
-LABEL maintainer="Eduardo Bizarro <eduardo@zendev.com.br>" \
+LABEL maintainer="Aref Tarkhani" \
   PHP="5.6" \
   NODE="12.9.0" \
   org.label-schema.name="Erfantasiert" \
