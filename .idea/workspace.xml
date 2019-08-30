@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94363683-3020-416b-9510-5581c2432f0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/.dockerignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/goss.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/goss.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/5.6/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/php/5.6/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/5.6/alpine/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/5.6/alpine/Dockerfile-lts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/5.6/chromium/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/5.6/fpm/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/7.1/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/php/7.1/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/7.1/alpine/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/7.1/alpine/Dockerfile-lts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/7.1/chromium/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/7.1/fpm/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/7.2/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/php/7.2/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/7.2/alpine/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/7.2/alpine/Dockerfile-lts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/7.2/chromium/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/7.2/fpm/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/7.3/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/7.3/alpine/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/7.3/alpine/Dockerfile-lts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/7.3/chromium/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/7.3/fpm/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/scripts/extensions.sh" beforeDir="false" afterPath="$PROJECT_DIR$/php/scripts/extensions.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +33,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/scripts/node.sh">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goss-7.2-3.yaml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
@@ -73,13 +47,6 @@
             <state relative-caret-position="530">
               <caret line="55" column="13" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitlab-ci.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20" />
           </provider>
         </entry>
       </file>
@@ -101,16 +68,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.dockerignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="9" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -120,6 +87,20 @@
               <second_editor />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.editorconfig">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -140,8 +121,9 @@
         <option value="$PROJECT_DIR$/php/5.6/Dockerfile" />
         <option value="$PROJECT_DIR$/php/7.1/Dockerfile" />
         <option value="$PROJECT_DIR$/php/7.2/Dockerfile" />
-        <option value="$PROJECT_DIR$/.dockerignore" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/.dockerignore" />
       </list>
     </option>
   </component>
@@ -202,12 +184,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567101523578</updated>
-      <workItem from="1567101525056" duration="5370000" />
+      <workItem from="1567101525056" duration="5451000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5370000" />
+    <option name="totallyTimeSpent" value="5451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="6" />
@@ -218,8 +200,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32838285" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32838285" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -294,13 +276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.dockerignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -308,6 +283,23 @@
             <caret column="19" selection-start-column="19" selection-end-column="19" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.dockerignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>

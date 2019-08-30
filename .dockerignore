@@ -7,3 +7,4 @@ gitlab-ci-pipeline-php.png
 .pre-commit-config.yaml
 LICENSE
 Makefile
+README.md
