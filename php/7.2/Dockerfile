@@ -4,7 +4,7 @@ ARG BUILD_DATE
 ARG VCS_REF
 
 LABEL maintainer="Aref Tarkhani" \
-  PHP="5.6" \
+  PHP="7.2" \
   NODE="12.9.0" \
   org.label-schema.name="Erfantasiert" \
   org.label-schema.build-date=$BUILD_DATE \
