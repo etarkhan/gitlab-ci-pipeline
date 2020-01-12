@@ -38,4 +38,5 @@ DEBIAN_FRONTEND=noninteractive
       unzip \
       zip \
       zlib1g-dev \
+      redis-server \
       && rm -rf /var/lib/apt/lists/*
