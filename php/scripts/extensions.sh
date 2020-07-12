@@ -19,6 +19,8 @@ pgsql \
 soap \
 xml \
 xmlrpc \
+sqlite-dev \
+sqlite3 \
 zip
 "
 
@@ -97,7 +99,7 @@ elif [[ $PHP_VERSION == "7.2" ]]; then
     && docker-php-source delete \
 
   pecl channel-update pecl.php.net \
-    && pecl install amqp redis apcu mongodb imagick xdebug \
+    && pecl install amqp redis apcu mongodb imagick xdebug sqlite redis\
     && docker-php-ext-enable amqp redis apcu mongodb imagick xdebug
 
 elif [[ $PHP_VERSION == "7.3" ]]; then

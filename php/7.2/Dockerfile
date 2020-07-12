@@ -30,6 +30,10 @@ COPY ./php/scripts/*.sh /tmp/
 RUN chmod +x /tmp/*.sh
 
 # Install
+RUN pecl install -o -f redis \
+  &&  rm -rf /tmp/pear \
+  &&  docker-php-ext-enable redis
+
 RUN bash ./packages.sh \
   && bash ./extensions.sh \
   && bash ./node.sh \
